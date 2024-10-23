@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreetBot", "GreetBot\GreetBot.csproj", "{D0D1E3D9-C1F9-440E-BD60-BB62302978E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetBot.Tests", "GreetBot\Tests\GreetBot.Tests.csproj", "{249A52BD-0183-4847-A349-385E550F46FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0D1E3D9-C1F9-440E-BD60-BB62302978E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D1E3D9-C1F9-440E-BD60-BB62302978E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D1E3D9-C1F9-440E-BD60-BB62302978E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D1E3D9-C1F9-440E-BD60-BB62302978E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249A52BD-0183-4847-A349-385E550F46FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249A52BD-0183-4847-A349-385E550F46FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249A52BD-0183-4847-A349-385E550F46FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249A52BD-0183-4847-A349-385E550F46FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E916947-F57D-4977-AF51-FD93DCD6F67C}
+	EndGlobalSection
+EndGlobal
