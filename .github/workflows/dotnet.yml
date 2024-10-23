@@ -22,6 +22,12 @@ jobs:
         dotnet-version: 8.0.403
     - name: Restore dependencies
       run: dotnet restore
+    # Run code analysis for all projects/solutions, such that code analysis violations break the build.
+    - name: Run .NET Code Analysis
+      uses: dotnet/code-analysis@v1
+      id: code-analysis
+      with:
+        build-breaking: true
     - name: Build
       run: dotnet build --no-restore
     - name: Test
