@@ -2,6 +2,7 @@
 
 namespace GreetBot
 {
+    /// <summary> The greeting class. Generates a random greet message. </summary>
     public class Greeting
     {
         public const string FirstMessage = "Hi";
