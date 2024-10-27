@@ -1,4 +1,6 @@
 name: "CodeQL"
+permissions:
+  actions: read
 
 on:
   push:
