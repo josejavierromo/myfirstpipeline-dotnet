@@ -13,7 +13,6 @@ WORKDIR /src
 COPY ["./GreetApp/GreetApp.csproj", "./GreetApp/"]
 COPY . .
 WORKDIR "/src/GreetApp"
-RUN dotnet restore "GreetApp.csproj" -c $BUILD_CONFIGURATION
 RUN dotnet build "GreetApp.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
